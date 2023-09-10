@@ -12,6 +12,9 @@ Optional bonus. See course site for details.
 """
 
 import doctest
+import math 
+import statistics
+
 
 # import from local util_datafun_logger.py
 from util_datafun_logger import setup_logger
@@ -48,12 +51,18 @@ def compare_two_plays():
     # hint: use sorted() to sort the list
     # hint: use set() to remove duplicates
     # name them wordset1 and wordset2
-    wordset1 = set()  # TODO fix this line
-    wordset2 = set()  # TODO fix this line
+    sorted_list1 = sorted(wordlist1)
+    sorted_list2 = sorted(wordlist2)
+    wordset1 = set(sorted_list1)  
+    wordset2 = set(sorted_list2)  
 
 
     # initialize a variable maxlen = 10
-    maxlen = 1  # TODO fix this line
+    maxlen = 10 
+
+    long_words1 = [word for word in wordset1 if len(word) is > maxlen]
+    long_words2 = [word for word in wordset2 if len(word) is > maxlen]
+    
 
     # use a list comprension to get a list of words longer than 10
     # for word in wordset1
@@ -65,8 +74,8 @@ def compare_two_plays():
     # hint: use set()
     # name them longwordset1 and longwordset2
 
-    longwordset1 = set()  # TODO: fix this line
-    longwordset2 = set()  # TODO: fix this line
+    longwordset1 = set(long_words1) 
+    longwordset2 = set(long_words2)  
 
     # find the intersection of the two sets
     # that is, the words in both longwordset1 1 & longwordset2
