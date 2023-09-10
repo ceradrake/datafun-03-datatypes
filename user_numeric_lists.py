@@ -81,6 +81,37 @@ logger.info(f" The set of list 1 is {set}")
 logger.info(f" The list sorted in ascending order is {sorted}")
 logger.info(f" The list sorted in reverse is {descsorted}")
 
+#Lists 4 Lists Methods
+lst = [12, 75, 23, 5, 2]
+#append
+lst.append(36)
+#extend
+lst.extend([32, 6, 5])
+#insert
+i = 2
+newvalue= 22
+lst.insert(i, newvalue)
+#remove
+item_to_remove = 5
+lst.remove(item_to_remove)
+#count how many times a value appears
+count_2 = lst.count(2)
+#sort
+sort_lst = sorted(lst)
+#descending sort
+descsort_lst = sorted(lst, reverse=True)
+#Copy to a new list
+new_lst = lst.copy
+#Remove the first item 
+first = new_lst.pop(0)
+#Remove the last item 
+last = newlst.pop(-1)
+
+
+
+
+
+
 
 # -------------------------------------------------------------
 # Call some functions and execute code!
