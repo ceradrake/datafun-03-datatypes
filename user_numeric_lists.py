@@ -120,9 +120,20 @@ list_value = 3
 volume = (list_value * 5 *5)
 logger.info(f"The volume of a cube with a side of 3 is {volume}")
 
+# List Comprehensions 
+logger.info(f"List comprehensions of List 1: {list1}")
 
+sales_less_than_5 = [x for x in list1 if x < 5]
 
+logger.info(f"Sales less than 5 are {sales_less_than_5}")
 
+sales_tripled = [x*3 for x in list1]
+
+logger.info(f"Sales tripled: {sales_tripled}")
+
+squareroot_sales = [math.sqrt(x) for x in list1]
+
+logger.info(f"The square root of the sales is: {squareroot_sales}")
 
 
 
