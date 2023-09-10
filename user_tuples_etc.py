@@ -21,3 +21,10 @@ arrangement_pricing = {12, 30, 40, 50, 60}
 logger.info(f"The retail stem prices are {stem_pricing}")
 logger.info(f"The arrangement prices are {arrangement_pricing}")
 
+#Intersection and union of sets
+
+price_intersection = stem_pricing & arrangement_pricing
+price_union = stem_pricing | arrangement_pricing
+
+logger.info(f"The intersection of the 2 sets is {price_intersection}")
+logger.info(f"The union of the prices is {price_union}")
