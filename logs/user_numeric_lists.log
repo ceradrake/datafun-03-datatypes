@@ -1,21 +1,21 @@
-2023-09-10 14:31:07,745 =============================================================
-2023-09-10 14:31:07,745 =============================================================
-2023-09-10 14:31:07,745 Today is 2023-09-10 at 02:31 PM
-2023-09-10 14:31:07,761 This file is running on: nt Windows 10
-2023-09-10 14:31:07,761 The Python version is: 3.11.4
-2023-09-10 14:31:07,761 The active conda environment is:  None
-2023-09-10 14:31:07,761 The active pip environment is:    None
-2023-09-10 14:31:07,761 The active environment path is:   C:\Users\cerad\AppData\Local\Programs\Python\Python311
-2023-09-10 14:31:07,761 The current working directory is: C:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-03-datatypes
-2023-09-10 14:31:07,761 This source file is in:           c:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-03-datatypes
-2023-09-10 14:31:07,761 =============================================================
-2023-09-10 14:31:07,761 =============================================================
-2023-09-10 14:31:07,761  The average sale is 48.65
-2023-09-10 14:31:07,761  The median of sales is 23.5
-2023-09-10 14:31:07,776  The mode of the sales is 7
-2023-09-10 14:31:07,776  The standard deviation of sales is 53.45265982255011
-2023-09-10 14:31:07,776  The variance of sales is 2857.186842105263
-2023-09-10 14:31:07,776  The correlation between list x and list y is -0.16993339538932425
-2023-09-10 14:31:07,777  The equation of the best fit line is: y = -0.025617011899515204x + 6.970416483032173
-2023-09-10 14:31:07,777  We predict that when x is 15, y will be 6.586161304539445
-2023-09-10 14:31:07,777  Info about list 1 using built in functions
+2023-09-10 15:13:49,179 =============================================================
+2023-09-10 15:13:49,179 =============================================================
+2023-09-10 15:13:49,179 Today is 2023-09-10 at 03:13 PM
+2023-09-10 15:13:49,207 This file is running on: nt Windows 10
+2023-09-10 15:13:49,207 The Python version is: 3.11.4
+2023-09-10 15:13:49,207 The active conda environment is:  None
+2023-09-10 15:13:49,207 The active pip environment is:    None
+2023-09-10 15:13:49,207 The active environment path is:   C:\Users\cerad\AppData\Local\Programs\Python\Python311
+2023-09-10 15:13:49,207 The current working directory is: C:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-03-datatypes
+2023-09-10 15:13:49,207 This source file is in:           c:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-03-datatypes
+2023-09-10 15:13:49,207 =============================================================
+2023-09-10 15:13:49,207 =============================================================
+2023-09-10 15:13:49,207  The average sale is 32.45
+2023-09-10 15:13:49,207  The median of sales is 18.5
+2023-09-10 15:13:49,207  The mode of the sales is 3
+2023-09-10 15:13:49,207  The standard deviation of sales is 37.017030220099905
+2023-09-10 15:13:49,207  The variance of sales is 1370.2605263157895
+2023-09-10 15:13:49,207  The correlation between list x and list y is -0.16993339538932425
+2023-09-10 15:13:49,207  The equation of the best fit line is: y = -0.025617011899515204x + 6.970416483032173
+2023-09-10 15:13:49,207  We predict that when x is 15, y will be 6.586161304539445
+2023-09-10 15:13:49,207  Info about list 1 using built in functions
