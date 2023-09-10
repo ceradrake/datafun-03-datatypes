@@ -33,6 +33,23 @@ def random_sentence():
     sentence = (f"The arrangement type is {random.choice(arrangement_type)}" f"The type of flowers used will be {random.choice(type_of_flowers)} ")
 
     logger.info(f"Random sentence: {sentence}")
+#String lists 3 
+def process_text_names_in(): 
+    logger.info("Calling process_text_names_in()")
+
+    with open("text_names_in.txt", "r") as fileObject: 
+        text = fileObject.read()
+        list_words = text.split()
+        unique_words = set(list_words)
+        sortedlist = sorted(unique_words)
+        list_length = len(unique_words)
+
+        logger.info(f"This text has {list_length} names")
+        
+        
+
+    
+
 
 
 
@@ -40,3 +57,4 @@ def random_sentence():
 
 # call functions and execute code
 # use if __name__ == "__main__":
+    logger.info("CALLING create_random_sentence")
