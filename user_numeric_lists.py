@@ -42,6 +42,12 @@ variance_list1 = statistics.variance(list1)
 
 logger.info(f" The variance of sales is {variance_list1}")
 
+# Correlation
+
+correlationxy = statistics.correlation (listx, listy)
+logger.info(f" The correlation between list x and list y is {correlationxy}")
+
+
 # -------------------------------------------------------------
 # Call some functions and execute code!
 
