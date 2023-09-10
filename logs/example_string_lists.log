@@ -1,0 +1,24 @@
+2023-09-10 15:44:51,568 =============================================================
+2023-09-10 15:44:51,568 =============================================================
+2023-09-10 15:44:51,568 Today is 2023-09-10 at 03:44 PM
+2023-09-10 15:44:51,596 This file is running on: nt Windows 10
+2023-09-10 15:44:51,596 The Python version is: 3.11.4
+2023-09-10 15:44:51,596 The active conda environment is:  None
+2023-09-10 15:44:51,602 The active pip environment is:    None
+2023-09-10 15:44:51,602 The active environment path is:   C:\Users\cerad\AppData\Local\Programs\Python\Python311
+2023-09-10 15:44:51,603 The current working directory is: C:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-03-datatypes
+2023-09-10 15:44:51,603 This source file is in:           c:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-03-datatypes
+2023-09-10 15:44:51,603 =============================================================
+2023-09-10 15:44:51,603 =============================================================
+2023-09-10 15:44:51,603 Calling functions from main block
+2023-09-10 15:44:51,603 Calling process_text_woodchuck()
+2023-09-10 15:44:51,607 The list of words is: ['How', 'much', 'wood', 'would', 'a', 'woodchuck', 'chuck', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood?', 'He', 'would', 'chuck,', 'he', 'would,', 'as', 'much', 'as', 'he', 'could,', 'and', 'chuck', 'as', 'much', 'wood', 'as', 'a', 'woodchuck', 'would', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood.']
+2023-09-10 15:44:51,607 There are 38 words in the file.
+2023-09-10 15:44:51,607 The set of unique words is: {'could,', 'if', 'and', 'a', 'could', 'chuck', 'wood.', 'would', 'wood?', 'would,', 'wood', 'chuck,', 'as', 'much', 'woodchuck', 'he', 'He', 'How'}
+2023-09-10 15:44:51,607 There are 18 unique words in the file.
+2023-09-10 15:44:51,607 Calling create_random_sentence()
+2023-09-10 15:44:51,607 Random sentence: The happy snake crawls scaredly.
+2023-09-10 15:44:51,607 Calling create_random_sentence()
+2023-09-10 15:44:51,607 Random sentence: The confused mouse jumps happily.
+2023-09-10 15:44:51,607 Calling play_game()
+2023-09-10 15:44:51,607 ready_for_continous_game = True
