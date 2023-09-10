@@ -10,3 +10,6 @@ Cera 9/10/23 Floral Industry
 1. Log in to GitHub and fork this repo into your own GitHub account.
 1. On your machine, open VS Code and clone YOUR repo down to your machine.
 1. Open the whole folder in VS Code for editing. 
+
+from util_logger import setup_logger
+logger, logname = setup_logger(__file__)
