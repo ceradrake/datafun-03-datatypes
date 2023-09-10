@@ -47,6 +47,17 @@ logger.info(f" The variance of sales is {variance_list1}")
 correlationxy = statistics.correlation (listx, listy)
 logger.info(f" The correlation between list x and list y is {correlationxy}")
 
+# Slope and Intercept 
+slope, intercept = statistics.linear_regression(listx, listy)
+logger.info(f" The equation of the best fit line is: y = {slope}x + {intercept}")
+
+#Predict
+
+x_max = max(listx)
+newx = 15
+newy = slope * newx + intercept
+
+logger.info(f" We predict that when x is {newx}, y will be {newy}")
 
 # -------------------------------------------------------------
 # Call some functions and execute code!
