@@ -27,6 +27,14 @@ length = len(order_type)
 funeral_flowers_set = set(funeral_flowers)
 zipped = zip(arrangement_type, funeral_flowers)
 
+#String lists 2 
+def random_sentence(): 
+    logger.info(f"Calling random_sentence()")
+    sentence = (f"The arrangement type is {random.choice(arrangement_type)}" f"The type of flowers used will be {random.choice(type_of_flowers)} ")
+
+    logger.info(f"Random sentence: {sentence}")
+
+
 
 
 
