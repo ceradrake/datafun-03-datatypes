@@ -95,6 +95,12 @@ def get_winner_message(userguess, botguess):
             return "Paper covers rock - You win!"
         else:
             return "Scissors cuts paper - I win!"
+    elif userguess == "scissors": 
+        if botguess == "rock": 
+            return "Rock breaks scissors - I win!"
+        else: 
+            return "Scissors cuts paper - You win!"
+        
     # TODO: add the logic for scissors to complete the game
 
 
@@ -102,7 +108,7 @@ def play_game():
     """Play a game of rock, paper, scissors"""
     logger.info("Calling play_game()")
 
-    ready_for_continous_game = False  # TODO: change this when ready
+    ready_for_continous_game = True  # TODO: change this when ready
     logger.info(f"ready_for_continous_game = {ready_for_continous_game}")
 
     if not ready_for_continous_game:
