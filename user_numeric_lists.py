@@ -5,7 +5,10 @@ Modify this docstring.
 
 # import some standard modules first - how many can you make use of?
 import math
+import statistics
 
+from util_logger import setup_logger
+logger, logname = setup_logger(__file__)
 
 # TODO: import from local util_datafun_logger.py 
 
