@@ -135,6 +135,10 @@ squareroot_sales = [math.sqrt(x) for x in list1]
 
 logger.info(f"The square root of the sales is: {squareroot_sales}")
 
+def show_log():
+    """Read log file and print it to the terminal"""
+    with open(logname, "r") as file_wrapper:
+        print(file_wrapper.read())
 
 # -------------------------------------------------------------
 # Call some functions and execute code!
@@ -148,7 +152,7 @@ if __name__ == "__main__":
     illustrate_list_statistics(list1)
     show_log()
     illustrate_list_transformations()
-    
+
 
 
 
