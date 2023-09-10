@@ -16,7 +16,7 @@ logger, logname = setup_logger(__file__)
 
 # TODO: Create some shared data lists if you like - or just create them in your functions
 
-list1 = [1, 5, 3, 7, 40, 24, 30, 14, 23, 150, 100, 97, 13, 66, 179, 12, 54, 7, 23, 125]
+list1 = [1, 5, 3, 7, 40, 24, 30, 14, 23, 3, 100, 97, 13, 66, 2, 12, 54, 7, 23, 125]
 listx = [30, 87, 65, 45, 77, 84, 35, 56, 47, 48]
 listy = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -105,7 +105,20 @@ new_lst = lst.copy
 #Remove the first item 
 first = new_lst.pop(0)
 #Remove the last item 
-last = newlst.pop(-1)
+last = new_lst.pop(-1)
+
+#Lists 5 : List Transformations 
+logger.info(f"Sales list: {list1}")
+
+sales_less_than_4 = list(filter(lambda x: x < 4, list1))
+logger.info(f" Sales less than 4: {sales_less_than_4}")
+
+doubled_sales = list(map(lambda x: math.cbrt(x), list1))
+logger.info(f"Doubled sales is {doubled_sales}")
+
+list_value = 3
+volume = (list_value * 5 *5)
+logger.info(f"The volume of a cube with a side of 3 is {volume}")
 
 
 
