@@ -36,3 +36,12 @@ rose_dict = {"retail" : "$1.99", "Difficulty level" : "Moderate", "Pack size" : 
 logger.info(f"Daisy dictionary is {daisy_dict}")
 logger.info(f"Rose dictionary is {rose_dict}")
 
+with open("text_names_in.txt") as file_object: 
+    word_list = file_object.read().split()
+    word_counts_dictionary = {}
+    for word in word_list: 
+        if word in word_counts_dictionary: 
+            word_counts_dictionary[word] += 1 
+        else: 
+            word_counts_dictionary[word] = 1
+logger.info(f"Given text_names_in, the word counts dictionary is {word_counts_dictionary}")
