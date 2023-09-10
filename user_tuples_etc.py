@@ -45,3 +45,6 @@ with open("text_names_in.txt") as file_object:
         else: 
             word_counts_dictionary[word] = 1
 logger.info(f"Given text_names_in, the word counts dictionary is {word_counts_dictionary}")
+
+word_counts_dictionary2 = {word: word_list.count(word) for word in word_list}
+logger.info(f"The word count dictionary 2 is {word_counts_dictionary2}")
