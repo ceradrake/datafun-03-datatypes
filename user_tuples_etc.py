@@ -28,3 +28,11 @@ price_union = stem_pricing | arrangement_pricing
 
 logger.info(f"The intersection of the 2 sets is {price_intersection}")
 logger.info(f"The union of the prices is {price_union}")
+
+#Creating Dictionaries 
+daisy_dict = {"retail" : "$1.99", "Difficulty level" : "Easy", "Pack size": 13}
+rose_dict = {"retail" : "$1.99", "Difficulty level" : "Moderate", "Pack size" : 8}
+
+logger.info(f"Daisy dictionary is {daisy_dict}")
+logger.info(f"Rose dictionary is {rose_dict}")
+

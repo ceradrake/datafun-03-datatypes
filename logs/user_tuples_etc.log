@@ -1,0 +1,18 @@
+2023-09-10 16:58:59,327 =============================================================
+2023-09-10 16:58:59,327 =============================================================
+2023-09-10 16:58:59,327 Today is 2023-09-10 at 04:58 PM
+2023-09-10 16:58:59,361 This file is running on: nt Windows 10
+2023-09-10 16:58:59,361 The Python version is: 3.11.4
+2023-09-10 16:58:59,361 The active conda environment is:  None
+2023-09-10 16:58:59,361 The active pip environment is:    None
+2023-09-10 16:58:59,361 The active environment path is:   C:\Users\cerad\AppData\Local\Programs\Python\Python311
+2023-09-10 16:58:59,361 The current working directory is: C:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-03-datatypes
+2023-09-10 16:58:59,363 This source file is in:           c:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-03-datatypes
+2023-09-10 16:58:59,363 =============================================================
+2023-09-10 16:58:59,363 =============================================================
+2023-09-10 16:58:59,363 Wholesale locations = ('Florida', 'Ecuador', 'Canada', 'California', 'Bolivia')
+2023-09-10 16:58:59,363 Busies months in the floral industry are: ('February', 'May', 'June', 'September')
+2023-09-10 16:58:59,363 The retail stem prices are {2, 3, 4, 7, 9, 10}
+2023-09-10 16:58:59,363 The arrangement prices are {50, 30, 40, 12, 60}
+2023-09-10 16:58:59,364 The intersection of the 2 sets is set()
+2023-09-10 16:58:59,364 The union of the prices is {2, 3, 4, 7, 40, 9, 10, 12, 50, 60, 30}
