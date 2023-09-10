@@ -70,7 +70,7 @@ sum = sum(list1)
 average = max / min
 set = set(list1)
 sorted = sorted(list1)
-descsorted = sorted(list1, reverse=True)
+descsorted = sorted(list1, reversed=True)
 
 logger.info(f" The min of list 1 is {min}")
 logger.info(f" The max of list 1 is {max}")
@@ -136,7 +136,6 @@ squareroot_sales = [math.sqrt(x) for x in list1]
 logger.info(f"The square root of the sales is: {squareroot_sales}")
 
 
-
 # -------------------------------------------------------------
 # Call some functions and execute code!
 
@@ -145,9 +144,12 @@ logger.info(f"The square root of the sales is: {squareroot_sales}")
 # (as opposed to being imported by another module)
 # Literally: "if this module name == the name of the main module"
 if __name__ == "__main__":
+    logger.info("Calling functions from main block")
+    illustrate_list_statistics(list1)
+    show_log()
+    illustrate_list_transformations()
+    
 
-    # call your functions here (see instructions)
-    print("Replace this with calls to your functions." )
 
 
 
