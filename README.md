@@ -1,5 +1,7 @@
 # datafun-03-datatypes
 
+Cera 9/10/23 Floral Industry 
+
 > Practice with Python data types, filter(), map(), and list comprehensions
 
 
