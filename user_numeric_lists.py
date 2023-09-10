@@ -59,6 +59,29 @@ newy = slope * newx + intercept
 
 logger.info(f" We predict that when x is {newx}, y will be {newy}")
 
+#Lists3. Lists Built in Python Functions
+
+logger.info(f" Info about list 1 using built in functions")
+
+min = min(list1)
+max = max(list1)
+len = len(list1)
+sum = sum(list1)
+average = max / min
+set = set(list1)
+sorted = sorted(list1)
+descsorted = sorted(list1, reverse=True)
+
+logger.info(f" The min of list 1 is {min}")
+logger.info(f" The max of list 1 is {max}")
+logger.info(f" The length of list 1 is {len}")
+logger.info(f" The total of list 1 is {sum}")
+logger.info(f" The average of the maximum and minimum is {average}")
+logger.info(f" The set of list 1 is {set}")
+logger.info(f" The list sorted in ascending order is {sorted}")
+logger.info(f" The list sorted in reverse is {descsorted}")
+
+
 # -------------------------------------------------------------
 # Call some functions and execute code!
 
